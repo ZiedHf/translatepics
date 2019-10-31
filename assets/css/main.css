@@ -1,0 +1,18 @@
+#languageLocale {
+  display: flex;
+}
+#myDropdown .dd-select .dd-selected {
+  display: flex;
+  height: 28px;
+  padding: 5px;
+}
+#myDropdown .dd-select .dd-selected label.dd-selected-text {
+  line-height: normal!important;
+}
+#myDropdown .dd-options li a.dd-option  {
+  display: flex;
+}
+#myDropdown .dd-options li a.dd-option label.dd-option-text {
+  line-height: normal!important;
+  margin-bottom: 0px;
+}

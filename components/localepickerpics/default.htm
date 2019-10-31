@@ -1,0 +1,9 @@
+{{ form_open({ id: 'languageLocale' }) }}
+<div
+  id="myDropdown"
+  data-values="{{ localesWithPics|json_encode() }}"
+  data-media="{{''|media}}"
+  data-request="onSwitchLocale"
+  data-activelocale="{{ activeLocale }}"
+></div>
+{{ form_close() }}
